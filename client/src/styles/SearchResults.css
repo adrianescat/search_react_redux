@@ -1,0 +1,17 @@
+.results {
+  max-width: 1220px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 16px auto 0 auto; }
+  .results .list {
+    background: white;
+    border-radius: 4px;
+    margin-top: 16px; }
+  .results .list > a {
+    display: block;
+    text-decoration: none; }
+    .results .list > a:focus, .results .list > a:visited, .results .list > a:hover, .results .list > a:active {
+      text-decoration: none; }
+  .results .breadcrumb {
+    font-size: 14px;
+    color: #999; }

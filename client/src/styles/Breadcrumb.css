@@ -1,0 +1,6 @@
+.breadcrumb {
+  color: #999;
+  font-size: 14px;
+  text-transform: capitalize; }
+  .breadcrumb .breadcrumb__node.bold {
+    font-weight: 700; }

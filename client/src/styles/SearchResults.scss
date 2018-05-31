@@ -1,0 +1,25 @@
+.results {
+    max-width: 1220px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 16px auto 0 auto;
+    
+    .list {
+        background: white;
+        border-radius: 4px;
+        margin-top: 16px;
+    }
+
+    .list > a {
+        display: block;
+        text-decoration: none;
+        &:focus, &:visited, &:hover, &:active {
+            text-decoration: none;
+        }
+    }
+
+    .breadcrumb {
+        font-size: 14px;
+        color: #999;
+    }
+}
