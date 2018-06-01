@@ -33,7 +33,6 @@ export default class SearchResults extends Component {
         const query = new URLSearchParams(this.props.location.search).get('search');
         const searchState = this.props.mappedSearchState;
         const items = this.createItemsComponents(searchState.items);
-        const categories = searchState.categories;
         return(
             <div>
                 <SearchBar static={query}/>

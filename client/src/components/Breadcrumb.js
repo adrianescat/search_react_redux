@@ -13,7 +13,7 @@ export default class Breadcrumb extends Component {
             count = categoriesArray.length;
 
         for (let i = 0; i < count; i++) {
-            let customClass = (i + 1) == count ? 'bold' : '';
+            let customClass = (i + 1) === count ? 'bold' : '';
 
             elements.push(<span className={'breadcrumb__node '+customClass} key={`node-${i}`}>{categoriesArray[i]}</span>);
             if ((i + 1) !== count){

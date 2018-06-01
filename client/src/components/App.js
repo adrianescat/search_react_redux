@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Navbar } from 'react-bootstrap';
 import '../styles/App.css';
 
 export default class App extends Component {

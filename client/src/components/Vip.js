@@ -41,7 +41,7 @@ export default class Vip extends Component {
                         <div className="vip-item">
                             <div className="column-1">
                                 <div className="vip-item__image">
-                                    <img src={item.picture.secure_url ? item.picture.secure_url : item.picture.url } alt="product image"/>
+                                    <img src={item.picture.secure_url ? item.picture.secure_url : item.picture.url } alt="product"/>
                                 </div>
                                 <div className="vip-item__description">
                                     <div className="header">Descripción del producto</div>

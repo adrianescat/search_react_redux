@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Navbar } from 'react-bootstrap';
 import { browserHistory, Link } from 'react-router'
 
 export default class SearchBar extends Component {
@@ -31,7 +30,7 @@ export default class SearchBar extends Component {
                     <Link to={'/'}>
                         <div className='header__logo'>
                             <img src="http://localhost:3000/img/Logo_ML.png"
-                                srcset="http://localhost:3000/img/Logo_ML.png 1x, http://localhost:3000/img/Logo_ML@2x.png 2x" alt="Meli logo"/>
+                                srcSet="http://localhost:3000/img/Logo_ML.png 1x, http://localhost:3000/img/Logo_ML@2x.png 2x" alt="Meli logo"/>
                         </div>
                     </Link>
                     <div className='header__bar'>
@@ -45,7 +44,7 @@ export default class SearchBar extends Component {
                             />
                             <button type="submit" disabled={!this.state.searchValue || !!this.props.static }>
                                 <img src="http://localhost:3000/img/Logo_ML.png"
-                                    srcset="http://localhost:3000/img/ic_Search.png 1x, http://localhost:3000/img/ic_Search@2x.png 2x" alt="Search button"/>
+                                    srcSet="http://localhost:3000/img/ic_Search.png 1x, http://localhost:3000/img/ic_Search@2x.png 2x" alt="Search button"/>
                             </button>
                         </form>
                     </div>

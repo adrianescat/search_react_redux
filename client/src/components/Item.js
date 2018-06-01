@@ -22,7 +22,7 @@ export default class Item extends Component {
                             {item.free_shipping &&
                                 <span className="shipping">
                                     <img src="http://localhost:3000/img/ic_shipping.png" 
-                                         srcset="http://localhost:3000/img/ic_shipping.png 1x, http://localhost:3000/img/ic_shipping@2x.png 2x"alt="free shipping logo"/>
+                                         srcSet="http://localhost:3000/img/ic_shipping.png 1x, http://localhost:3000/img/ic_shipping@2x.png 2x"alt="free shipping logo"/>
                                 </span>
                             }
                         </div>
