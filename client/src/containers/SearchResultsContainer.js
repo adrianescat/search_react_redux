@@ -4,15 +4,15 @@ import SearchResults from '../components/SearchResults';
 
 // map state from store to props
 const mapStateToProps = (state, ownProps) => {
-  return {
-    mappedSearchState: state.searchState
-  }
+	return {
+		mappedSearchState: state.searchState
+	}
 }
 
 const mapDispatchToProps = (dispatch) => {
-  return {
-    fetchItems: (query) => dispatch(searchActions.fetchItems(query))
-  }
+	return {
+		fetchItems: (query) => dispatch(searchActions.fetchItems(query))
+	}
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(SearchResults);

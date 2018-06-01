@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import '../styles/Vip.css';
-import SearchBar from './searchBar';
+import SearchBar from './SearchBar';
 import { wrapperUrls } from '../config/client.config';
 import BreadcrumbContainer from '../containers/BreadcrumbContainer';
+import Loading from './Loading';
 
 export default class Vip extends Component {
     constructor(props) {
@@ -31,7 +32,7 @@ export default class Vip extends Component {
                 <SearchBar static={'No dejes de buscar'}/>
 
                 {!this.state.item &&
-                    <div className="loading">Loading..</div>
+                    <Loading />
                 }
 
                 {this.state.item &&

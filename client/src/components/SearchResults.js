@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import SearchBar from './searchBar';
+import SearchBar from './SearchBar';
 import Item from './Item';
+import Loading from './Loading';
 import '../styles/SearchResults.css';
 import BreadcrumbContainer from '../containers/BreadcrumbContainer';
 
@@ -37,7 +38,7 @@ export default class SearchResults extends Component {
             <div>
                 <SearchBar static={query}/>
                 {!items && searchState.isFetching &&
-                    <p>Loading items....</p>
+                    <Loading />
                 }
 
                 {!items && items.length <= 0 && !searchState.isFetching &&
