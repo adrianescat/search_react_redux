@@ -1,6 +1,5 @@
 import fetch from 'node-fetch';
 import { assign } from 'lodash';
-import Item from '../models/item.server.model';
 import { apiUrls } from '../config/server.config';
 import { find, map } from 'lodash';
 
